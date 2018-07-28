@@ -1,0 +1,15 @@
+# Settings for domainupdater
+
+# CPANEL access configuration
+USERNAME=[CPANEL Username]
+PASSWORD=[CPANEL Password]
+CPANELURL=https://www.example.com:2083/
+
+# Host who tells me my ip in plane text and only the address
+MYIPURL=https://www.example.com/dns/myip.php
+
+# Domain where host is member of                                                                                      
+DOMAIN=example.com 
+
+# List of FQDN Hostnames to update seperated by comma's
+HOSTS=home.example.com,vpn.example.com
