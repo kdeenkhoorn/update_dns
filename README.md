@@ -8,8 +8,8 @@ It finds out your IP by querying a small php script on your hostingaccount and c
 ## Installation
 - Fitst create an 'A' record for your service like home.example.com and enter an ipnumber matching your current router's external ip adress. Chose a low ttl time for your record, say 3600. This is advisable so the caching of your DNS record will not stay behind to long.
 - Place the file myip.php on your hostingaccount and test it to be shure it returns your public IP address.
-- Copy the settings.ini.example to settings.ini and update the contents to your situation.
-- Run the script update_dns.sh and see the magic.
+- Copy the 'settings.ini.example' to 'settings.ini' and update the contents to your situation.
+- Run the script 'update_dns.sh' and see the magic.
 - If successfully run you can add it to your routers crontab to run every 5 minutes or so.
 
 ## Specifics for LEDE/OpenWRT
